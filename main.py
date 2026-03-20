@@ -14,7 +14,7 @@ app.add_middleware(
 )
 
 # আপনার মডেল লোড করা (Hugging Face থেকে সরাসরি লোড হবে)
-model_path = "hellofoysal101/bangla-sentiment-bert"
+model_path = "hellofoysal101/new-bert-len-60"
 classifier = pipeline("sentiment-analysis", model=model_path)
 
 class TextData(BaseModel):
